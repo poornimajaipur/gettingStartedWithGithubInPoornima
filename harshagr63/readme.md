@@ -1,1 +1,1 @@
-My Name os Harsh Agarwal
+My Name is Harsh Agarwal
