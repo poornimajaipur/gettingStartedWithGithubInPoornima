@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <section>
+        <h1>Form</h1>
+
+        <form action="file:///C:/Users/shubham/Desktop">
+            <p>
+                <label for="username">Enter a Username</label>
+                <input type="text" placeholder="Username" id="username" name="username">
+            </p>
+
+            <p>
+                <label for="password">Enter a Password</label>
+                <input type="password" placeholder="Password" id="password" name="password">
+            </p>
+
+            <p>
+                <label for="color">Choose a color</label>
+                <input type="color" id="color" name="color">
+            </p>
+
+            <p>
+                <label for="number">Select a number</label>
+                <input type="number" placeholder="enter a number" id="number" name="num">
+            </p>
+
+            <button>
+                Submit
+            </button>
+
+            <button type="button">Not for submit</button>
+
+            <input type="submit" value="Click Me!">
+        </form>
+
+    </section>
+    <hr>
+    <section>
+        <h1>Google Search</h1>
+        <form action="https://www.google.com/search">
+            <input type="text" name="query">
+            <button>Search Google</button>
+
+        </form>
+    </section>
+
+    <hr>
+    <section>
+        <h1>Youtube Search</h1>
+        <form action="https://www.youtube.com/results">
+            <input type="text" name="search_query">
+            <button>Search Youtube</button>
+
+        </form>
+    </section>
+
+    <hr>
+    <section>
+        <h1>New Form</h1>
+        <form action="">
+            <input type="checkbox" name="agree_tos" id="agree">
+            <label for="agree">I Agree</label>
+            <p>
+                <input type="radio" name="size" id="L" value="L">
+                <label for="L">L</label>
+
+                <input type="radio" name="size" id="XL" value="XL">
+                <label for="XL">XL</label>
+
+                <input type="radio" name="size" id="XXL" value="XXL">
+                <label for="XXL">XXL</label>
+            </p>
+
+            <p>
+                <label for="meal">Please select a Entry:</label>
+                <select name="meal" id="meal">
+                    <option value="">Please select an option</option>
+                    <option value="fish">Fish</option>
+                    <option value="veg">Vegeterian</option>
+                    <option value="stake">Stake</option>
+                    <option value="burger">Hamburger</option>
+                    <option value="pizza">Pizza</option>
+                </select>
+            </p>
+            <button>Submit</button>
+
+        </form>
+    </section>
+
+    <hr>
+
+    <section>
+        <form action="">
+            <p>
+                <label for="cheese">Amount of Cheese</label>
+                <input type="range" id="cheese" min="0" max="10" name="cheese">
+            </p>
+
+            <p>
+                <label for="request">Any special request</label>
+                <br>
+                <textarea id="request" rows="3" cols="40" name="request"></textarea>
+            </p>
+            <button>Submit</button>
+        </form>
+    </section>
+
+
+</body>
+
+</html>
